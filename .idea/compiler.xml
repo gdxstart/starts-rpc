@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/example-consumer/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yu-rpc-spring-boot-starter" />
+        <module name="yu-rpc-core" />
+        <module name="yu-rpc-easy" />
+        <module name="example-springboot-provider" />
+        <module name="example-springboot-consumer" />
+        <module name="example-provider" />
+        <module name="example-common" />
+        <module name="example-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yu-rpc-easy (1)" target="1.8" />
+      <module name="yu-rpc-easy (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
